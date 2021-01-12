@@ -6,34 +6,6 @@ var valosMegoldas = false
 
 var ha, hb, hc
 
-/* experimental
-
-ctx.globalAlpha = 0.2;
-for(var i = 0; i<100; i++){
-    if (i % 10 == 0)
-    {
-        ctx.strokeStyle = "#FF0000";
-    }
-    ctx.beginPath();
-    ctx.moveTo(i*10, 0);
-    ctx.lineTo(i*10, 1000);
-    ctx.stroke();
-    ctx.strokeStyle = "#000000";
-}
-for(var i = 0; i<100; i++){
-    if (i % 10 == 0)
-    {
-        ctx.strokeStyle = "#FF0000";
-    }
-    ctx.beginPath();
-    ctx.moveTo(0, i*10);
-    ctx.lineTo(1000, i*10);
-    ctx.stroke();
-    ctx.strokeStyle = "#000000";
-}
-ctx.globalAlpha = 1;
-*/
-
 function ine(){
     ha = document.getElementById("a").value
     hb = document.getElementById("b").value
